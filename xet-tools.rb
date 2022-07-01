@@ -1,4 +1,4 @@
-class XetTools < Formula
+class XetTest < Formula
   desc "XetHub CLI Tools Homebrew Tap."
   homepage "https://github.com/xethub/xet-tools"
   url "https://github.com/xetdata/xet-tools/releases/download/v0.5.0/xet-v0.5.0-mac-universal.tar.gz"
@@ -6,8 +6,7 @@ class XetTools < Formula
   license :cannot_represent
 
   def install
-    bin.install 'xet'
-    bin.install 'git-xet'
+    bin.install 'git-xet' => git-xett
   end
 
 end

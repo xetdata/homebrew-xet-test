@@ -6,7 +6,7 @@ class XetTest < Formula
   license :cannot_represent
 
   def install
-    bin.install 'git-xet' => git-xett
+    bin.install 'git-xet' => "git-xett"
   end
 
 end

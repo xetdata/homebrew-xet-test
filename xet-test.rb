@@ -7,7 +7,7 @@ class XetTest < Formula
 
   def install
     bin.install 'git-xet' => "git-xett"
-    system "git-xett", "install"
+    # system "git-xett", "install"
   end
 
 end
